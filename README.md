@@ -5,3 +5,4 @@
 =>I have also included the images and videos used in the website
 =>Github repo link:
 =>Live Website Link:
+=>For icons I have used remix icons
