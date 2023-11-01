@@ -160,7 +160,7 @@ body {
 
   margin: 0 5px;
   border-radius: 100px;
-  
+
   margin: 0 10px;
   margin-bottom: -12.5px;
 }
@@ -189,8 +189,53 @@ body {
   background-position: 0% 50%;
 }
 
+#pictures {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+}
+#firstpic {
+  width: 17vw;
+}
+#firstpic #picimg {
+  width: 100%;
+  height: 24vw;
+  margin-bottom: 1vw;
+}
 
-#pictures{
-  padding: ;
+#firstpic h1,
+#secpic h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+#firstpic p,
+#secpic p {
+  font-size: 15px;
+  margin-top: 10px;
+  opacity: 0.5;
+}
 
+#picimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#secpic {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 25vw;
+}
+#secpic #picimg {
+  width: 100%;
+  height: 35vw;
+  margin-bottom: 1vw;
+}
+
+
+#secpic p{
+  width: 50%;
 }
