@@ -139,20 +139,58 @@ body {
 }
 
 #motive {
+  margin-top: 7vw;
   padding: 3vw 10vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 #motive p {
-  display: flex;
-  align-items: center;
+  line-height: 1.9;
+  letter-spacing: -0.1vw;
+  width: 85%;
+  text-align: right;
   font-size: 2vw;
-  flex-wrap: wrap;
+  position: relative;
+  right: 0;
 }
 
 #motive span {
-  width: 80px;
-  height: 40px;
+  display: inline-block;
+
   margin: 0 5px;
   border-radius: 100px;
-  background-color: red;
+  
+  margin: 0 10px;
+  margin-bottom: -12.5px;
+}
+
+#onespan {
+  width: 80px;
+  height: 40px;
+  background-image: url("../image & video/bluegirl.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+#twospan {
+  width: 120px;
+  height: 40px;
+  background-image: url("../image & video/shaljam.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+#threespan {
+  width: 80px;
+  height: 40px;
+  background-image: url("../image & video/grass.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+
+#pictures{
+  padding: ;
+
 }
