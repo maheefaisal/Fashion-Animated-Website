@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Fashion Website</title>
@@ -18,15 +19,15 @@
             <div id="nav">
                 <!-- Left part -->
                 <div id="nleft">
-                    <a href="#">Home</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Products</a>
+                    <a class="nlink" href="#">Home</a>
+                    <a class="nlink" href="#">Pricing</a>
+                    <a class="nlink" href="#">Products</a>
 
                 </div>
-                <a id="centeratag" href="#">Fashionistas</a>
+                <a class="nlink" id="centeratag" href="#">Fashionistas</a>
                 <!-- Right part -->
                 <div id="nright">
-                    <a href="#">Our Journey</a>
+                    <a class="nlink" href="#">Our Journey</a>
                 </div>
             </div>
             <!-- Hero -->
@@ -57,54 +58,61 @@
                     <h3>Visit Our Gallery</h3>
                 </div>
             </div>
-            <!-- Motive -->
-            <div id="motive">
 
-                <h3>Our Motive</h3>
-                <p>Lorem ipsum dolor <span id="onespan"></span> sit amet consectetur.
-                    Lorem ipsum dolor <span id="twospan"></span> sit amet consectetur.
-                    Lorem ipsum dolor <span id="threespan"></span> sit amet consectetur.</p>
+        </div>
+        <!-- Motive -->
+        <div id="motive">
+
+            <h3>Our Motive</h3>
+            <p>Lorem ipsum dolor <span id="onespan"></span> sit amet consectetur.
+                Lorem ipsum dolor <span id="twospan"></span> sit amet consectetur.
+                Lorem ipsum dolor <span id="threespan"></span> sit amet consectetur.</p>
+        </div>
+
+        <div id="pictures">
+            <div id="firstpic">
+                <div id="picimg">
+                    <img src="../image & video/sea.jpg " alt="">
+                </div>
+                <h1>Synergy</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
             </div>
-
-            <div id="pictures">
-                <div id="firstpic">
-                    <div id="picimg">
-                        <img src="../image & video/sea.jpg " alt="">
-                    </div>
-                    <h1>Synergy</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-
+            <div id="secpic">
+                <div id="picimg">
+                    <img src="../image & video/cloud.jpg " alt="">
                 </div>
-                <div id="secpic">
-                    <div id="picimg">
-                        <img src="../image & video/cloud.jpg " alt="">
-                    </div>
-                    <h1>Harmony</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h1>Harmony</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
-                </div>
             </div>
+        </div>
 
-            <div id="banner">
-                <div id="bimg">
-                    <img src="../image & video/bottle.jpg" alt="">
-                </div>
-                <div id="btext">
-                    <h1>Biodgradable</h1>
-                    <h1>Packaging</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
+        <div id="banner">
+            <div id="bimg">
+                <img src="../image & video/bottle.jpg" alt="">
             </div>
+            <div id="btext">
+                <h1>Biodgradable</h1>
+                <h1>Packaging</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
 
-            <div id="future">
-                <video src="../image & video/back.mp4"></video>
-                <div id="ftext">
-                    <h1>Think of future</h1>
-                    <button>Hoin The Community</button>
-                </div>
+        <div id="future">
+            <video src="../image & video/back.mp4" autoplay muted loop></video>
+            <div id="ftext">
+                <h1>Think of future</h1>
+                <button>Hoin The Community</button>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <script src="../Js/script.js"></script>
 </body>
 
-</html>
+</html>  
